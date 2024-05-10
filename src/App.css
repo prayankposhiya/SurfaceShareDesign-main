@@ -1,0 +1,14 @@
+.cardFeatures {
+  box-shadow: 9px 9px 18px #bebebe;
+}
+.cardFeaturesInner {
+  box-shadow: inset 0px 0px 0px #ffffff, inset 9px 9px 18px #ffffff;
+}
+
+/* helppage */
+.helpHeaderImg {
+  background-image: url("../src//assets/Images/helpPage/Rectangle\ 1108.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
