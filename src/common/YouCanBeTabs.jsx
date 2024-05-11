@@ -15,11 +15,11 @@ import Img10 from "../assets/Images/youCanBePage/Supplier sample 1.png";
 import Img11 from "../assets/Images/youCanBePage/Supplier sample 2.png";
 import Img12 from "../assets/Images/youCanBePage/Supplier sample 3.png";
 
-export function YouCanBeTabs() {
+export function YouCanBeTabs({ isSharer, isSupplier }) {
   return (
     <div className="overflow-x-auto">
       <Tabs aria-label="Full width tabs" style="fullWidth">
-        <Tabs.Item active title="Seeker">
+        <Tabs.Item title="Seeker">
           <div className="container mx-auto px-36">
             <div className="flex flex-row">
               <div className="basis-1/2">
@@ -56,7 +56,7 @@ export function YouCanBeTabs() {
             </div>
           </div>
         </Tabs.Item>
-        <Tabs.Item title="Sharer">
+        <Tabs.Item active={isSharer} title="Sharer">
           <div className="container mx-auto px-36">
             <div className="flex flex-row">
               <div className="basis-1/2">
@@ -93,7 +93,7 @@ export function YouCanBeTabs() {
             </div>
           </div>
         </Tabs.Item>
-        <Tabs.Item title="Supplier">
+        <Tabs.Item active={isSupplier} title="Supplier">
           <div className="container mx-auto px-36">
             <div className="flex flex-row">
               <div className="basis-1/2">

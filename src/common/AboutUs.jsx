@@ -10,14 +10,17 @@ import Img7 from "../assets/Images/homePage/Group 6.png";
 
 export default function AboutUs() {
   return (
-    <div className="relative">
+    <div className="relative hidden lg:block">
       <div className="container mx-auto">
-        <div className="my-20 relative z-10">
+        <div className="mx-20 xl:mx-0 my-20 relative z-10">
           <div className="text-start">
-            <h3 className="text-6xl text-[#323031] font-semibold mt-16">Who are we ?</h3>
-            <p className="my-10 text-xl text-[#474747] ms-8 me-72">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-              text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            <h3 className="text-4xl xl:text-6xl text-[#323031] font-semibold mt-16">
+              Who are we ?
+            </h3>
+            <p className="my-10 text-md xl:text-xl text-[#474747] ms-8 me-72">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book.
             </p>
             <a className="text-2xl text-[#E5B222] ms-8" href="javascript:void(0)">
               Learn more about us

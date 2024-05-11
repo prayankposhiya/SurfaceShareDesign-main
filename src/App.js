@@ -21,15 +21,19 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/surface" element={<SurfacePage />} />
         <Route path="/aboutUs" element={<AboutUs />} />
-        <Route path="/features" element={<Features />} />
+        <Route path="/featurePage" element={<FeaturePage />} />
         <Route path="/helpCenter" element={<HelpPage />} />
-        <Route path="/pricing" element={<YouCanBe />} />
+        <Route path="/pricing" element={<Features />} />
         <Route path="/contactUs" element={<ContactUs />} />
         <Route path="/termsPolicy" element={<TermsPolicy />} />
         <Route path="/privacy" element={<Privacy />} />
-        <Route path="/featurePage" element={<FeaturePage />} />
+
+        <Route path="/youcanbe" element={<YouCanBe />} />
+
+        <Route path="/surface" element={<SurfacePage />} />
+        {/* <Route path="/youcanbeSharer" element={<YouCanBe />} /> */}
+        {/* <Route path="/youcanbeSupplier" element={<YouCanBe />} /> */}
       </Routes>
 
       <Footer />

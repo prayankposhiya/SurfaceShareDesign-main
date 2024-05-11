@@ -35,9 +35,9 @@ let cards = [
 export default function SurfaceShare() {
   return (
     <div>
-      <div className="container mx-auto">
+      <div className="container mx-auto hidden lg:block">
         <div className="py-14">
-          <h3 className="text-6xl text-[#323031] text-start font-semibold mt-16">
+          <h3 className="text-6xl text-[#160d12] text-start font-semibold mt-16">
             How SurfaceShare works
           </h3>
           <div className="px-20">
@@ -53,12 +53,12 @@ export default function SurfaceShare() {
 
             <div className="flex flex-row">
               <div className="basis-1/2">
-                <a className="text-2xl text-[#E5B222] ms-8" href="javascript:void(0)">
+                <a className="text-2xl text-[#E5B222] ms-8" href="/youcanbe">
                   Learn more about Sharer
                 </a>
               </div>
               <div className="basis-1/2">
-                <a className="text-2xl text-[#E5B222] ms-8" href="javascript:void(0)">
+                <a className="text-2xl text-[#E5B222] ms-8" href="/youcanbe">
                   Learn more about Supplier
                 </a>
               </div>

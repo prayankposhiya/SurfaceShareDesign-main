@@ -1,7 +1,7 @@
 import React from "react";
 import { YouCanBeTabs } from "../common/YouCanBeTabs";
 
-export default function YouCanBe() {
+export default function YouCanBe({ sharer, supplier }) {
   return (
     <>
       <div className="container mx-auto">
@@ -13,7 +13,7 @@ export default function YouCanBe() {
       </div>
 
       <div className="pb-10">
-        <YouCanBeTabs />
+        <YouCanBeTabs isSharer={sharer} isSupplier={supplier} />
       </div>
     </>
   );

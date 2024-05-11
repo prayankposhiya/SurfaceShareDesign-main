@@ -34,9 +34,9 @@ let cards = [
 
 export default function Feature() {
   return (
-    <div className="bg-[#FCF0C6]">
+    <div className="bg-white lg:bg-[#FCF0C6]">
       <div className="container mx-auto">
-        <div className=" py-10">
+        <div className="mx-3 lg:mx-0 py-5 lg:py-10">
           {cards.map((card, id) => (
             <FeatureCard
               key={id}
