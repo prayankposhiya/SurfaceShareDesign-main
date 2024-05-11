@@ -13,7 +13,7 @@ export default function Hero() {
             <h2 className="text-3xl lg:text-6xl text-[#323031] font-semibold mt-16 text-center">
               Seek anywhere <br /> Share everywhere
             </h2>
-            <p className="text-sm lg:text-md xl:text-xl xl:px-72  text-[#474747] text-center my-10">
+            <p className="text-sm lg:text-lg xl:text-xl xl:px-72  text-[#474747] text-center my-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
               adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}

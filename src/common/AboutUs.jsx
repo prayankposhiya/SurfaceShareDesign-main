@@ -17,7 +17,7 @@ export default function AboutUs() {
             <h3 className="text-4xl xl:text-6xl text-[#323031] font-semibold mt-16">
               Who are we ?
             </h3>
-            <p className="my-10 text-md xl:text-xl text-[#474747] ms-8 me-72">
+            <p className="my-10 text-lg xl:text-xl text-[#474747] ms-8 me-20 xl:me-72">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
               has been the industry's standard dummy text ever since the 1500s, when an unknown
               printer took a galley of type and scrambled it to make a type specimen book.

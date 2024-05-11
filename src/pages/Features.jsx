@@ -9,18 +9,20 @@ export default function Features() {
   return (
     <div className="bg-[#f9dd7b] overflow-hidden">
       <div className="container mx-auto">
-        <div className="pt-24 pb-48 relative">
+        <div className="mx-3 lg:mx-20 xl:mx-0 py-10 lg:pt-24 lg:pb-48 relative">
           <div className="text-center">
-            <h3 className="text-6xl text-[#323031] font-semibold">Choose your plan </h3>
-            <p className="my-16 text-xl text-[#474747]">
+            <h3 className="text-2xl lg:text-4xl xl:text-6xl text-[#323031] font-semibold">
+              Choose your plan{" "}
+            </h3>
+            <p className="my-8 lg:my-16 text-xs lg:text-lg xl:text-xl text-[#474747]">
               Start now with the free plan. Upgrade to Pro or Pro+ with one month fee and cancel at
               any time
             </p>
           </div>
           <div className="text-start">
-            <div className="flex flex-row">
+            <div className="lg:flex flex-row">
               <div className="basis-1/3 z-10">
-                <div className="px-10">
+                <div className="px-3 lg:px-5 xl:px-10 mb-8 lg:mb-0">
                   <div className="cardFeatures bg-[#fff] rounded-2xl overflow-hidden">
                     <div className="cardFeaturesInner bg-[#EBEBEB] py-4 ps-5">
                       <span className="text-[#7B7B7B] text-3xl font-bold">Basic</span>
@@ -40,7 +42,7 @@ export default function Features() {
                 </div>
               </div>
               <div className="basis-1/3 z-10">
-                <div className="px-10">
+                <div className="px-3 lg:px-5 xl:px-10 mb-8 lg:mb-0">
                   <div className="cardFeatures bg-[#fff] rounded-2xl overflow-hidden">
                     <div className="cardFeaturesInner bg-[#D2E9F5] py-4 ps-5">
                       <span className="text-[#7B7B7B] text-3xl font-bold">Pro</span>
@@ -60,7 +62,7 @@ export default function Features() {
                 </div>
               </div>
               <div className="basis-1/3 z-10">
-                <div className="px-10">
+                <div className="px-3 lg:px-5 xl:px-10 mb-8 lg:mb-0">
                   <div className="cardFeatures bg-[#fff] rounded-2xl overflow-hidden">
                     <div className="cardFeaturesInner bg-[#FBE7A1] py-4 ps-5 ">
                       <span className="text-[#7B7B7B] text-3xl font-bold">
@@ -83,16 +85,16 @@ export default function Features() {
               </div>
             </div>
           </div>
-          <div className="absolute top-[10%] -left-[5%]">
+          <div className="hidden lg:block absolute top-[10%] -left-[5%]">
             <img src={Img1} alt="" />
           </div>
-          <div className="absolute top-[80%] -left-[5%]">
+          <div className="hidden lg:block absolute top-[80%] -left-[5%]">
             <img src={Img2} alt="" />
           </div>
-          <div className="absolute top-[65%] -right-[5%]">
+          <div className="hidden lg:block absolute top-[65%] -right-[5%]">
             <img src={Img3} alt="" />
           </div>
-          <div className="absolute top-[10%] -right-[10%]">
+          <div className="hidden lg:block absolute top-[10%] -right-[10%]">
             <img src={Img4} alt="" />
           </div>
         </div>

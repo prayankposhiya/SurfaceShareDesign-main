@@ -19,12 +19,12 @@ export default function Surface() {
           </div>
           <div className="lg:basis-1/2 order-3 lg:order-4">
             <div className="text-start lg:ms-10 me-0 xl:me-56">
-              <p className="my-10 text-xs lg:text-md xl:text-xl text-white lg:text-[#474747] ">
+              <p className="my-10 text-xs lg:text-lg xl:text-xl text-white lg:text-[#474747] ">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                 unknown printer took a galley of type and scrambled it to make a type specimen book.
               </p>
-              <p className="my-10 text-xs lg:text-md xl:text-xl text-white lg:text-[#474747] ">
+              <p className="my-10 text-xs lg:text-lg xl:text-xl text-white lg:text-[#474747] ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua.
               </p>

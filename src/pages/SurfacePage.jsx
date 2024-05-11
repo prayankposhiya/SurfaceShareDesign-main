@@ -12,24 +12,28 @@ export default function SurfacePage() {
   return (
     <div className="bg-[#FCF0C6]">
       <div className="container mx-auto">
-        <div className="px-20 py-10">
+        <div className="px-3 lg:px-20 py-5 lg:py-10">
           <div className="text-start mt-14 ">
-            <span className="text-6xl text-[#323031]">Download Surface Share now</span>
-            <p className="my-5 text-xl text-[#474747] font-bold ms-8 me-12">
+            <span className="text-3xl lg:text-6xl text-[#323031]">Download Surface Share now</span>
+            <p className="my-5 text-sm lg:text-md xl:text-xl text-[#474747] font-bold lg:ms-8 lg:me-12">
               Use Surface Share across your devices
             </p>
-            <p className=" text-[16px] text-[#474747] ms-8 me-12">
+            <p className=" text-sm lg:text-md xl:text-[16px] text-[#474747] lg:ms-8 lg:me-12">
               By installing WhatsApp, you agree to our Terms & Privacy Policy.
             </p>
 
             <div className="flex flex-col justify-center items-center my-10">
-              <div className="flex justify-center">
-                <img src={Img1} alt="" />
-                <img className="ms-20" src={Img2} alt="" />
+              <div className="flex justify-center gap-2">
+                <div className="">
+                  <img className="w-full h-auto" src={Img1} alt="" />
+                </div>
+                <div className="ms-3 lg:ms-20">
+                  <img className="w-full h-auto " src={Img2} alt="" />
+                </div>
               </div>
               <div className="relative">
                 <img className="relative z-10" src={Img3} alt="" />
-                <img className="absolute top-[60px] left-[115px] z-0" src={Img4} alt="" />
+                {/* <img className="absolute top-[60px] left-[115px] z-0" src={Img4} alt="" />
                 <img className="absolute top-[38%] left-[35%] z-1" src={Img5} alt="" />
                 <div className="absolute top-[48%] left-[34%] z-1">
                   <Button2
@@ -39,7 +43,7 @@ export default function SurfacePage() {
                     textSize={12}
                     px="px-4"
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
