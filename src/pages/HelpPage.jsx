@@ -20,7 +20,7 @@ export default function HelpPage() {
       <div className="container mx-auto">
         <div className="mx-3 lg:mx-20 xl:mx-0 py-10 lg:pt-24 lg:pb-48 relative">
           <div className={`text-center `}>
-            <h3 className="text-2xl lg:text-4xl xl:text-6xl text-[#323031] font-semibold mb-10">
+            <h3 className="text-3xl lg:text-4xl xl:text-6xl text-[#323031] font-semibold mb-10">
               How can we help ?{" "}
             </h3>
             <form action="">
@@ -42,7 +42,7 @@ export default function HelpPage() {
       <div className="container mx-auto">
         <div className="mx-3 lg:mx-20 xl:mx-0 py-10 relative">
           <div className={`text-start `}>
-            <h4 className="text-2xl lg:text-4xl text-[#323031] font-semibold text-center lg:text-start">
+            <h4 className="text-3xl lg:text-4xl text-[#323031] font-semibold text-center lg:text-start">
               Popular questions
             </h4>
             <div className="lg:grid grid-cols-3 gap-5 my-10">
@@ -55,7 +55,7 @@ export default function HelpPage() {
               ))}
             </div>
 
-            <h4 className="text-2xl lg:text-4xl text-center lg:text-start text-[#323031] font-semibold">
+            <h4 className="text-3xl lg:text-4xl text-center lg:text-start text-[#323031] font-semibold">
               Articles
             </h4>
             <div className="lg:last:flex flex-row flex-wrap ">
@@ -64,25 +64,25 @@ export default function HelpPage() {
                   This section contains answers to the most common questions about SurfaceShare
                 </p>
                 <ul>
-                  <li className="text-xs lg:text-lg xl:text-xl text-[#323031] font-semibold py-2 ps-2 hover:bg-[#f0f0f0] cursor-pointer">
+                  <li className="text-sm lg:text-lg xl:text-xl text-[#323031] font-semibold py-2 ps-2 hover:bg-[#f0f0f0] cursor-pointer">
                     Get Started
                   </li>
-                  <li className="text-xs lg:text-lg xl:text-xl text-[#323031] font-semibold py-2 ps-2 hover:bg-[#f0f0f0] cursor-pointer">
+                  <li className="text-sm lg:text-lg xl:text-xl text-[#323031] font-semibold py-2 ps-2 hover:bg-[#f0f0f0] cursor-pointer">
                     Seeker
                   </li>
-                  <li className="text-xs lg:text-lg xl:text-xl text-[#323031] font-semibold py-2 ps-2 hover:bg-[#f0f0f0] cursor-pointer">
+                  <li className="text-sm lg:text-lg xl:text-xl text-[#323031] font-semibold py-2 ps-2 hover:bg-[#f0f0f0] cursor-pointer">
                     Sharer
                   </li>
-                  <li className="text-xs lg:text-lg xl:text-xl text-[#323031] font-semibold py-2 ps-2 hover:bg-[#f0f0f0] cursor-pointer">
+                  <li className="text-sm lg:text-lg xl:text-xl text-[#323031] font-semibold py-2 ps-2 hover:bg-[#f0f0f0] cursor-pointer">
                     Supplier
                   </li>
-                  <li className="text-xs lg:text-lg xl:text-xl text-[#323031] font-semibold py-2 ps-2 hover:bg-[#f0f0f0] cursor-pointer">
+                  <li className="text-sm lg:text-lg xl:text-xl text-[#323031] font-semibold py-2 ps-2 hover:bg-[#f0f0f0] cursor-pointer">
                     Business Profile
                   </li>
-                  <li className="text-xs lg:text-lg xl:text-xl text-[#323031] font-semibold py-2 ps-2 hover:bg-[#f0f0f0] cursor-pointer">
+                  <li className="text-sm lg:text-lg xl:text-xl text-[#323031] font-semibold py-2 ps-2 hover:bg-[#f0f0f0] cursor-pointer">
                     User Profile
                   </li>
-                  <li className="text-xs lg:text-lg xl:text-xl text-[#323031] font-semibold py-2 ps-2 hover:bg-[#f0f0f0] cursor-pointer">
+                  <li className="text-sm lg:text-lg xl:text-xl text-[#323031] font-semibold py-2 ps-2 hover:bg-[#f0f0f0] cursor-pointer">
                     Settings
                   </li>
                 </ul>

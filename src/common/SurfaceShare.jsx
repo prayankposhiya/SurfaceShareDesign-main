@@ -37,7 +37,7 @@ export default function SurfaceShare() {
     <div>
       <div className="container mx-auto hidden lg:block">
         <div className="mx-3 lg:mx-20 xl:mx-0 py-14">
-          <h3 className="text-2xl lg:text-4xl xl:text-6xl text-[#160d12] text-start font-semibold mt-16">
+          <h3 className="text-3xl lg:text-4xl xl:text-6xl text-[#160d12] text-start font-semibold mt-16">
             How SurfaceShare works
           </h3>
           <div className="xl:px-20">
@@ -53,12 +53,12 @@ export default function SurfaceShare() {
 
             <div className="flex flex-row">
               <div className="basis-1/2">
-                <a className="text-lg xl:text-2xl text-[#E5B222] ms-8" href="/youcanbe">
+                <a className="text-lg xl:text-3xl text-[#E5B222] ms-8" href="/youcanbe">
                   Learn more about Sharer
                 </a>
               </div>
               <div className="basis-1/2">
-                <a className="text-lg xl:text-2xl text-[#E5B222] ms-8" href="/youcanbe">
+                <a className="text-lg xl:text-3xl text-[#E5B222] ms-8" href="/youcanbe">
                   Learn more about Supplier
                 </a>
               </div>

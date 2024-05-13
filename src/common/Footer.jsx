@@ -77,7 +77,7 @@ export default function Footer() {
               </ul>
             </div>
             <div className=" lg:basis-6/12">
-              <p className="text-xs lg:text-lg text-center">© 2023 - 2024 Surface Share.</p>
+              <p className="text-sm lg:text-lg text-center">© 2023 - 2024 Surface Share.</p>
             </div>
             <div className="basis-3/12 text-end hidden lg:block">
               <Button1 isTrans={true} text="Download" href="/surface" />

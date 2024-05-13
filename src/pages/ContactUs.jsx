@@ -7,7 +7,7 @@ export default function ContactUs() {
     <div className={``}>
       <div className="container mx-auto">
         <div className="mx-3 lg:mx-20 xl:mx-0 py-10 lg:py-24">
-          <h2 className="text-2xl lg:text-4xl xl:text-6xl text-[#323031] font-semibold  text-start">
+          <h2 className="text-3xl lg:text-4xl xl:text-6xl text-[#323031] font-semibold  text-start">
             Contact Us
           </h2>
 
@@ -44,11 +44,11 @@ export default function ContactUs() {
 
                 <div className="text-[#323031]">
                   <h4 className="text-xl lg:text-3xl font-semibold my-10">Corporate Address</h4>
-                  <h4 className="text-lg lg:text-2xl font-medium">SurfaceShare Limited</h4>
-                  <p className="text-xs lg:text-lg xl:text-xl my-3">1095 6th Ave,</p>
-                  <p className="text-xs lg:text-lg xl:text-xl my-3">New York,</p>
-                  <p className="text-xs lg:text-lg xl:text-xl my-3">NY 10036,</p>
-                  <p className="text-xs lg:text-lg xl:text-xl my-3">United States</p>
+                  <h4 className="text-lg lg:text-3xl font-medium">SurfaceShare Limited</h4>
+                  <p className="text-sm lg:text-lg xl:text-xl my-3">1095 6th Ave,</p>
+                  <p className="text-sm lg:text-lg xl:text-xl my-3">New York,</p>
+                  <p className="text-sm lg:text-lg xl:text-xl my-3">NY 10036,</p>
+                  <p className="text-sm lg:text-lg xl:text-xl my-3">United States</p>
                 </div>
               </div>
             </div>

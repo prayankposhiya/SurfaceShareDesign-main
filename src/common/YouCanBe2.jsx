@@ -7,7 +7,7 @@ export default function YouCanBe2({ sharer, supplier }) {
       <div className="container mx-auto lg:hidden">
         <div className="py-10 mx-3 ">
           <div className={`text-start `}>
-            <h3 className="text-2xl  text-[#323031] font-semibold">You can be a</h3>
+            <h3 className="text-3xl  text-[#323031] font-semibold">You can be a</h3>
           </div>
         </div>
       </div>

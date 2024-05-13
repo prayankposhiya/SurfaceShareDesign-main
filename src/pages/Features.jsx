@@ -11,10 +11,10 @@ export default function Features() {
       <div className="container mx-auto">
         <div className="mx-3 lg:mx-20 xl:mx-0 py-10 lg:pt-24 lg:pb-48 relative">
           <div className="text-center">
-            <h3 className="text-2xl lg:text-4xl xl:text-6xl text-[#323031] font-semibold">
+            <h3 className="text-3xl lg:text-4xl xl:text-6xl text-[#323031] font-semibold">
               Choose your plan{" "}
             </h3>
-            <p className="my-8 lg:my-16 text-xs lg:text-lg xl:text-xl text-[#474747]">
+            <p className="my-8 lg:my-16 text-sm lg:text-lg xl:text-xl text-[#474747]">
               Start now with the free plan. Upgrade to Pro or Pro+ with one month fee and cancel at
               any time
             </p>

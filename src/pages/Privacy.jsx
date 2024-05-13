@@ -8,7 +8,7 @@ export default function Privacy() {
       <div className="bg-[#FCF0C6] h-5/6">
         <div className="container mx-auto">
           <div className="mx-3 lg:mx-20 xl:mx-0 pt-16 h-full">
-            <h2 className="text-2xl lg:text-4xl xl:text-6xl text-[#323031] font-semibold  text-start">
+            <h2 className="text-3xl lg:text-4xl xl:text-6xl text-[#323031] font-semibold  text-start">
               Privacy
             </h2>
 
@@ -22,7 +22,7 @@ export default function Privacy() {
       <div className="container mx-auto">
         <div className="mx-3 lg:mx-20 xl:mx-0 my-24 ">
           <h4 className="text-xl lg:text-3xl text-[#323031] font-semibold my-10">Privacy Policy</h4>
-          <div className="text-xs lg:text-lg xl:text-xl text-[#474747] mx-5 lg:mx-10 ">
+          <div className="text-sm lg:text-lg xl:text-xl text-[#474747] mx-5 lg:mx-10 ">
             <p className="my-6">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
               has been the industry's standard dummy text ever since the 1500s, when an unknown

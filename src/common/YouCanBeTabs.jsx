@@ -21,10 +21,10 @@ export function YouCanBeTabs({ isSharer, isSupplier }) {
       <Tabs aria-label="Full width tabs" style="fullWidth">
         <Tabs.Item title="Seeker">
           <div className="container mx-auto px-36">
-            <div className="flex flex-row">
+            <div className="flex flex-row my-10">
               <div className="basis-1/2">
-                <div className="mt-24">
-                  <p className="text-xl text-[#474747] me-36">
+                <div className=" xl:mt-24">
+                  <p className="text-lg xl:text-xl text-[#474747] me-20 xl:me-36">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                     Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                     unknown printer took a galley of type and scrambled it to make a type specimen
@@ -58,10 +58,10 @@ export function YouCanBeTabs({ isSharer, isSupplier }) {
         </Tabs.Item>
         <Tabs.Item active={isSharer} title="Sharer">
           <div className="container mx-auto px-36">
-            <div className="flex flex-row">
+            <div className="flex flex-row my-10">
               <div className="basis-1/2">
-                <div className="mt-24">
-                  <p className="text-xl text-[#474747] me-36">
+                <div className="xl:mt-24">
+                  <p className="text-lg xl:text-xl text-[#474747] me-20 xl:me-36">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                     Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                     unknown printer took a galley of type and scrambled it to make a type specimen
@@ -95,10 +95,10 @@ export function YouCanBeTabs({ isSharer, isSupplier }) {
         </Tabs.Item>
         <Tabs.Item active={isSupplier} title="Supplier">
           <div className="container mx-auto px-36">
-            <div className="flex flex-row">
+            <div className="flex flex-row my-10">
               <div className="basis-1/2">
-                <div className="mt-24">
-                  <p className="text-xl text-[#474747] me-36">
+                <div className="xl:mt-24">
+                  <p className="text-lg xl:text-xl text-[#474747] me-20 xl:me-36">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                     Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                     unknown printer took a galley of type and scrambled it to make a type specimen

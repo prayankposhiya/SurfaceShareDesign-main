@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="bg-[#F9DD7B] xl:h-5/6">
         <div className="container h-full mx-auto">
           <div className="mx-3 lg:mx-20 xl:mx-0 flex flex-col justify-center items-center h-full ">
-            <h2 className="text-3xl lg:text-6xl text-[#323031] font-semibold mt-16 text-center">
+            <h2 className="text-4xl lg:text-6xl text-[#323031] font-semibold mt-16 text-center">
               Seek anywhere <br /> Share everywhere
             </h2>
             <p className="text-sm lg:text-lg xl:text-xl xl:px-72  text-[#474747] text-center my-10">

@@ -23,49 +23,49 @@ export function YouCanBeTabs2() {
           <div className="container mx-auto">
             <div className="">
               <div className="mt-10">
-                <p className="text-xs text-[#474747]">
+                <p className="text-sm text-[#474747]">
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                   Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                   unknown printer took a galley of type and scrambled it to make a type specimen
                   book.
                 </p>
               </div>
-              <div className="">
-                <img className="w-full" src={Img1} alt="" />
+              <div className="mt-5">
+                <img className="w-9/12 mx-auto" src={Img1} alt="" />
               </div>
             </div>
           </div>
         </Tabs.Item>
-        <Tabs.Item  title="Sharer">
+        <Tabs.Item title="Sharer">
           <div className="container mx-auto">
             <div className="">
               <div className="mt-10">
-                <p className="text-xs text-[#474747]">
+                <p className="text-sm text-[#474747]">
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                   Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                   unknown printer took a galley of type and scrambled it to make a type specimen
                   book.
                 </p>
               </div>
-              <div className="">
-                <img className="w-full" src={Img5} alt="" />
+              <div className="mt-5">
+                <img className="w-9/12 mx-auto" src={Img5} alt="" />
               </div>
             </div>
           </div>
         </Tabs.Item>
-        <Tabs.Item  title="Supplier">
+        <Tabs.Item title="Supplier">
           <div className="container mx-auto">
             <div className="">
               <div className="mt-10">
-                <p className="text-xs text-[#474747] ">
+                <p className="text-sm text-[#474747] ">
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                   Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                   unknown printer took a galley of type and scrambled it to make a type specimen
                   book.
                 </p>
               </div>
-              <div className="">
-                <img className="w-full" src={Img9} alt="" />
+              <div className="mt-5">
+                <img className="w-9/12 mx-auto" src={Img9} alt="" />
               </div>
             </div>
           </div>
