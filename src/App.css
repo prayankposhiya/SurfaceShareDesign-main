@@ -12,3 +12,7 @@
   background-position: top;
   background-size: contain;
 }
+
+.styles11 button:focus {
+  --tw-ring-color: #e5b222;
+}

@@ -18,7 +18,7 @@ import Img12 from "../assets/Images/youCanBePage/Supplier sample 3.png";
 export function YouCanBeTabs2() {
   return (
     <div className="overflow-x-auto">
-      <Tabs aria-label="Full width tabs" style="fullWidth">
+      <Tabs aria-label="Full width tabs" style="fullWidth" className="styles11">
         <Tabs.Item title="Seeker">
           <div className="container mx-auto">
             <div className="">

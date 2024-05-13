@@ -16,7 +16,7 @@ export default function Blogs() {
             </p>
           </div>
           <div className="">
-            <Slider />
+            <Slider/>
             {/* <div className="bg-[#FCF0C6] flex flex-col justify-center items-center rounded-xl py-10 xl:py-20 px-5 lg:px-32 xl:px-56">
               <img src={Img1} alt="" />
               <h5 className="mb-8 mt-3 text-3xl font-bold text-[#474747]">Mark Hamill</h5>
