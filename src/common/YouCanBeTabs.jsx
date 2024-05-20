@@ -18,8 +18,7 @@ import Img12 from "../assets/Images/youCanBePage/Supplier sample 3.png";
 export function YouCanBeTabs({ isSharer, isSupplier }) {
   return (
     <div className="overflow-x-auto">
-      {/* <div className={styles.base}> */}
-      <Tabs aria-label="Full width tabs" style="fullWidth" className="styles11">
+      <Tabs aria-label="Full width tabs" style="fullWidth">
         <Tabs.Item title="Seeker">
           <div className="container mx-auto px-36">
             <div className="flex flex-row my-10">
@@ -132,7 +131,6 @@ export function YouCanBeTabs({ isSharer, isSupplier }) {
           </div>
         </Tabs.Item>
       </Tabs>
-      {/* </div> */}
     </div>
   );
 }
