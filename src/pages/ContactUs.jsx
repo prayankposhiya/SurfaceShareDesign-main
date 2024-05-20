@@ -32,7 +32,7 @@ export default function ContactUs() {
                       rows="10"
                     ></textarea>
                     <div className="flex mt-5">
-                      <input type="text" placeholder="Name" className="w-full rounded-lg" />
+                      <input type="text" placeholder="Email" className="w-full rounded-lg" />
                       <input
                         className="ms-6 bg-[#263238] py-2 px-10 rounded-lg text-white"
                         type="submit"

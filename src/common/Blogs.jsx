@@ -11,8 +11,7 @@ export default function Blogs() {
               Our customer’s kind words
             </h3>
             <p className=" my-5 lg:my-16 text-sm lg:text-lg xl:text-xl text-[#474747] lg:ms-8 lg:me-72 text-center lg:text-start">
-              Know what they say about our platform after they used it Know what they say about our
-              platform after they u
+              Know what they say about our platform after they used it
             </p>
           </div>
           <div className="">

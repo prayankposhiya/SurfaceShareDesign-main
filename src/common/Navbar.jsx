@@ -13,9 +13,29 @@ import Logo from "../assets/Logo.png";
 import Hidden from "@mui/material/Hidden";
 import { ReactComponent as MenuIcon } from "../assets/MenuIcon.svg";
 import ButtonComponent from "../common/Button";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const [open, setOpen] = useState(false);
+  const NavMenus=[
+    {
+      title:"Home",
+      link:'/'
+    },
+    {
+      title:"About",
+      link:'/aboutUs'
+    },
+    {
+      title:"Services",
+      link:'/featurePage'
+    },
+    {
+      title:"Contact",
+      link:'/contactUs'
+    },
+  ]
 
   const list = () => (
     <div
@@ -25,9 +45,9 @@ const Navbar = () => {
       onKeyDown={toggleDrawer(false)}
     >
       <List>
-        {["Home", "About", "Services", "Contact"].map((text, index) => (
-          <ListItem button key={index}>
-            <ListItemText primary={text} />
+        {NavMenus.map((menu, index) => (
+          <ListItem className="cursor-pointer" key={index} onClick={()=>navigate(menu?.link)}>
+            <ListItemText primary={menu.title} />
           </ListItem>
         ))}
       </List>
@@ -71,9 +91,9 @@ const Navbar = () => {
         {/* <Box> */}
         <Hidden mdDown>
           <List sx={{ display: "flex" }}>
-            {["Home", "About", "Services", "Contact"].map((text, index) => (
-              <ListItem key={index} sx={{ color: "black" }}>
-                {text}
+            {NavMenus.map((menu, index) => (
+              <ListItem className="cursor-pointer" key={index} sx={{ color: "black" }} onClick={()=>navigate(menu?.link)}>
+                {menu.title}
               </ListItem>
             ))}
           </List>

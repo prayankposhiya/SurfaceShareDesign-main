@@ -21,7 +21,7 @@ export default function TermsPolicy() {
 
       <div className="container mx-auto">
         <div className="mx-3 lg:mx-20 xl:mx-0  my-24">
-          <h4 className="text-xl lg:text-3xl text-[#323031] font-semibold my-10">Terms & Policy</h4>
+          <h4 className="text-xl lg:text-3xl text-[#323031] font-semibold my-10">Terms of Service</h4>
           <div className=" text-sm lg:text-lg xl:text-xl text-[#474747] mx-5 lg:mx-10 ">
             <p className="my-6">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum

@@ -15,7 +15,7 @@ export default function Features() {
               Choose your plan{" "}
             </h3>
             <p className="my-8 lg:my-16 text-sm lg:text-lg xl:text-xl text-[#474747]">
-              Start now with the free plan. Upgrade to Pro or Pro+ with one month fee and cancel at
+              Start now with the free plan. Upgrade to <span className="font-semibold">Pro</span> or <span className="font-semibold">Pro+</span> with one month fee and cancel at
               any time
             </p>
           </div>
